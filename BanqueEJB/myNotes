@@ -1,0 +1,24 @@
+transaction-type
+		1.JTA : 
+			le datasource est deployé au niveau du serveur d'app
+			independemment du projet==> peut etre utilisé par plusieurs proj
+			geré par un conteneur special
+		
+		==>  en JEE, en principe on deploie les composants (y compris les datasource )separement 
+		: soit par la console d'admin ou dans le file standalone.xml
+			
+		2.RESOURCE_LOCAL : 
+			il faut declarer les info du datasource ds le persistence.xml
+			geré localement par l'app, ( par un thread dhaaaaharli)
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
